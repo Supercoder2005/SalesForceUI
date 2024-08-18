@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SalesforceUI</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="logo">
+                   <img src="data:image/png;base64,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">
+                </div>
+                <div class="text"><p>Products</p></div>
+                <div class="text"><p>Industries</p></div>
+                <div class="text"><p>Customers</p></div>
+                <div class="text"><p>Learning</p></div>
+                <div class="text"><p>Support</p></div>
+                <div class="text">
+                    <p>More</p>
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <div id="contactdetails">
+                    <p style="text-align: center;"><u>Contact Us</u></p>
+                    <p>0000-0000-0000</p>
+                </div>
+                <div class="icon"><i class="ri-search-2-line"></i></div>
+                <div class="icon"><i class="ri-global-line"></i></div>
+                <div id="login">
+                    <i class="ri-user-3-fill"></i>
+                    <p>Login</p>
+                </div>
+                <div id="try"><p>Try for Free</p></div>
+
+            </div>
+            <div id="fakeheader"></div>
+            <div id="page1">
+                <div id="strip"><p>JUST ANNOUNCED : See why Gartner recognised Salesforce as a Leader in Customer Data Platforms.
+                    <u>Read the report</u></p>
+                </div>
+                <div id="content">
+                    <div id="box1">
+                        <h1>Try Salesforce Starter Suite for Free.</h1>
+                        <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+                        <div id="buttons">
+                            <div id="btn1">Start Free Trial</div>
+                            <div id="btn2">Watch Demo</div>
+                        </div>
+                    </div>
+                    <div id="box2">
+                        <img src="https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640" alt="">
+                    </div>
+                </div>
+                <div id="downheading">
+                    <h2>Learn what Salesforce products can do for you.</h2>
+                </div>
+            </div>
+            <div id="page2"></div>
+        </div>
+    </body>
+</html>
